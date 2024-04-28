@@ -23,6 +23,14 @@
     f. 0, this is because both false and null are converted to 0 and added. \
     g. '3undefined', this is because undefined is converted to a string and concatenated. \
     h. NaN, this is because undefined is converted to NaN, and any operation with NaN returns NaN. 
-14. a.
+14. a. True, '2' is converted to an int for comparison. \
+    b. False, the strings are compared in lexicographic order. \
+    c. True, '2' is converted to an int. \
+    d. False. No type conversion occurs, so '2' != 2 \
+    e. False. True is converted to 1, 1 !=2 \
+    f. True. Boolean(2) returns true, true === true.
+15. Both are used for comparison, but === does not allow for type conversion while == does.
+16. See part2-question16.js in the repo.
+    
     
     
