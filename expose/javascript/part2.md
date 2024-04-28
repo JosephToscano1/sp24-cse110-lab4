@@ -31,6 +31,9 @@
     f. True. Boolean(2) returns true, true === true.
 15. Both are used for comparison, but === does not allow for type conversion while == does.
 16. See part2-question16.js in the repo.
+17. The function above when called with the following parameters will return `[2,4,6]`. This is because when modifyArray is running, the for loop creates a new array by adding each element after it is passed to the function labeled by callback which is doSomething. doSomething multiplies the nummber given by 2. Doing this for all elements in the given array results in `[2,4,6]` being returned.
+18. See part2-question18.js in the repo
+19. 
     
     
     
