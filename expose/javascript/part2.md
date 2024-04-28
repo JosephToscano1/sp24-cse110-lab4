@@ -33,7 +33,7 @@
 16. See part2-question16.js in the repo.
 17. The function above when called with the following parameters will return `[2,4,6]`. This is because when modifyArray is running, the for loop creates a new array by adding each element after it is passed to the function labeled by callback which is doSomething. doSomething multiplies the nummber given by 2. Doing this for all elements in the given array results in `[2,4,6]` being returned.
 18. See part2-question18.js in the repo
-19. 
+19. The output of the above code will be `1 4 3 2` all on separate lines in that order.
     
     
     
